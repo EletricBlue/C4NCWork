@@ -1,4 +1,4 @@
-"""
+ """
                             Brock Griffith
                                 C4NC
                         Python Ch 5: Lists
@@ -76,9 +76,9 @@ print("Ground: ", ground)
 while choice != "end":
     userIn = input("would you like to \"pick up\" or \"drop?\" ").lower()
     if userIn == "pick up":
-        var = user == input("what would you like to pick up? ")
+        var = userIn == input("what would you like to pick up? ")
 #if pick up, append specified item to inventory
-        if user in ground:
+        if userIn in ground:
 
             print(inv)
         else:
