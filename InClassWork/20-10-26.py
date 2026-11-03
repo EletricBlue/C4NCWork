@@ -1,4 +1,4 @@
- """
+"""
                             Brock Griffith
                                 C4NC
                         Python Ch 5: Lists
@@ -83,7 +83,7 @@ while choice != "end":
             print(inv)
         else:
             print("bad")
-#if drop, append item to ground
+#if dropped, append item to ground
 #if item does not exist, complain
 
 
